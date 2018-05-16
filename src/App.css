@@ -1,0 +1,67 @@
+#root {
+  height: 100%;
+  width: 100%;
+}
+#map {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  position: relative;
+  width:100%;
+}
+.page-header__background {
+  background: url('pictures/2.jpg');
+  background-position: bottom;
+  background-size: cover;
+  filter: brightness(0.7);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+.section {
+  margin: 0 auto;
+  width: 80%;
+}
+.footer {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+.mapboxgl-canvas {
+  left: 0;
+}
+.mapboxgl-marker {
+  cursor: pointer;
+}
+.mapboxgl-popup-content {
+  font-size: 0.625rem;
+  padding: 0.5rem;
+}
+.mapboxgl-popup-content h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.mapboxgl-popup-content p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.marker {
+  height: 30px;
+  width: 30px;
+}
